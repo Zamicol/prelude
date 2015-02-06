@@ -1,3 +1,4 @@
 (menu-bar-mode 1)
-(when window-system          ; start speedbar if we're using a window system
-		    (speedbar t))
+; start speedbar if we're using a window system
+(when window-system
+	(speedbar t))
